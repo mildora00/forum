@@ -1,0 +1,58 @@
+#voto{
+    width: 8vw;
+}
+button{
+    border-radius: 40%;
+    width: 5vw;
+    cursor: pointer;
+    
+}
+button:hover{
+    border-radius: 100%;
+    
+}
+.bottone{
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;;
+}
+.riga{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.dim{
+    width: 10%;
+    color: coral;
+}
+#nome{
+    width: 10%;
+    cursor: pointer;
+}
+#cognome{
+    width: 10%;
+    cursor: pointer;
+}
+#password{
+    width: 10%;
+    cursor: pointer;
+}
+
+form{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#calendario{
+    cursor: pointer;
+}
+#mostraP{
+    cursor: pointer;
+}
+.container{
+    background: url("https://images.unsplash.com/photo-1605106715994-18d3fecffb98?q=80&w=1326&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
