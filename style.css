@@ -1,9 +1,9 @@
 #voto{
-    width: 8vw;
+    min-width: 8vw;
 }
 button{
     border-radius: 40%;
-    width: 5vw;
+    min-width: 5vw;
     cursor: pointer;
     
 }
@@ -12,10 +12,10 @@ button:hover{
     
 }
 .bottone{
-    height: 5vh;
+    height: 5%;
     display: flex;
     justify-content: center;
-    margin-top: 5vh;;
+    margin-top: 5%;
 }
 .riga{
     display: flex;
@@ -24,24 +24,25 @@ button:hover{
     align-content: center;
 }
 .dim{
-    width: 10%;
+    min-width: 10vw;
     color: coral;
 }
 #nome{
-    width: 10%;
+    min-width: 10vw;
+    
     cursor: pointer;
 }
 #cognome{
-    width: 10%;
+    min-width: 10vw;
     cursor: pointer;
 }
 #password{
-    width: 10%;
+    min-width: 10vw;
     cursor: pointer;
 }
 
 form{
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,5 +55,9 @@ form{
     cursor: pointer;
 }
 .container{
+    height: 100%;
     background: url("https://images.unsplash.com/photo-1605106715994-18d3fecffb98?q=80&w=1326&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+body{
+    height: 700px;
 }
