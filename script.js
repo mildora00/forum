@@ -89,7 +89,8 @@ function rosso(){
 function iscrizioneEff(){
     if(document.getElementById("nome").value != "" && document.getElementById("cognome").value!= "" && document.getElementById("password").value!= "" 
     && document.getElementById("voto").value != "" && document.getElementById("calendario").value != ""){
-        document.body.innerHTML='<div><h1> Iscrizione effettuata</h1><img src='+"https://media.giphy.com/media/26u4lOMA8JKSnL9Uk/giphy.gif"+'></div>';
+        document.body.innerHTML='<div><h1 class="modifica"> Iscrizione effettuata</h1><img src='+"https://media.giphy.com/media/26u4lOMA8JKSnL9Uk/giphy.gif"+'><style>body{height: 100vh;display:flex; justify-content:center; align-content:center; background: url("https://images.unsplash.com/photo-1605106715994-18d3fecffb98?q=80&w=1326&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");} .modifica{color:white; width: 100hw;;display: flex; justify-content: center;}</style></div>';
+        
         
         
     }else{
